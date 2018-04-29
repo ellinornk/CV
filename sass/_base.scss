@@ -1,0 +1,37 @@
+body{
+  margin:0;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+}
+h1{
+  font-family: 'Amatic SC';
+  font-size: 300%;
+  text-align: center;
+}
+h2{
+  font-family: 'Amatic SC';
+}
+
+p{
+  font-family: 'Josefin Sans';
+  line-height: 150%;
+}
+ul{
+  font-family: 'Josefin Sans';
+  line-height: 150%;
+}
+
+article{
+  margin-bottom: 12em;
+}
+
+.content{
+  margin:0;
+  @media only screen and (min-width:800px) {
+      margin: 8em;
+  }
+}

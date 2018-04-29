@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <!--Description of the site-->
+    <title>Ellinor N. Kaufeldt</title>
+  </head>
+
+
+  <body>
+    <!-- Return to Top Button-->
+    <div class="returnToTop">
+      <button type="button">
+        <a href="#header">Top</a>
+      </button>
+    </div>
+  <header id="header" class="header">
+    <div class="headerText">
+      <h1>Ellinor N. Kaufeldt</h1>
+      <p>Front-End Developer</p>
+    </div>
+  </header>
+
+  <nav class="desktopNav">
+    <a href="#introduction">About me</a>
+    <a href="#workSamples">Earlier Work</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+<!--Mobile navigation-->
+  <nav id="mobileNav" class="mobileNav">
+    <button type="button" id="navButton" class="navButton" onclick="toggleMenu()">Menu</button>
+    <div id="dropdownContent" class="dropdownContent">
+      <ul>
+        <li><a href="#introduction" onclick="toggleMenu()">About me</a></li>
+        <li><a href="#workSamples" onclick="toggleMenu()">Earlier Work</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content">
+
+    <article id="introduction" class="introduction">
+      <h1>Looking towards the Future</h1>
+      <p>I've been drawing since I was born and I started loving math when I was a
+        young one. After years of looking for something that sparked something
+        in me like those things I applied for a Front-end program at Nackademin
+        in Stockholm,Sweden.
+        I expected to find something a little more fun than the jobs I've had before,
+        but what I found was something so much better; I found a new spark.</p>
+        <ul>
+          <li>| Born and raised in Stockholm |</li>
+          <li>| Crazy cat lady |</li>
+          <li>| Wanderlust in every bone of my body |</li>
+          <li>Drawing | Driving | Cooking</li>
+        </ul>
+    </article>
+  </div>
+
+    <div class="parallax">
+
+    </div>
+
+<div class="content">
+    <article id="workSamples">
+    <h1>Work Samples</h1>
+
+    <div class="workSamples">
+      <section class="arboreal" class="workSample">
+        <a href="https://ellinornk.github.io/HTMLochCSS_individuell/">
+          <h2>Arboreal</h2>
+          <p>Individual project for HTML and CSS course</p>
+        </a>
+      </section>
+
+      <section class="redesign" class="workSample">
+        <a href="https://paulonova.github.io/Redesign_Webpage/">
+          <h2>ReDesign</h2>
+          <p>Group assignment for our course in HTML and CSS</p>
+        </a>
+      </section>
+  <!-- Create new section for a project with this code:
+      <section class="">
+        <h2></h2>
+        <p></p>
+        <a href=""></a>
+      </section>
+  -->
+    </div>
+    </article>
+
+    <!--Eductaion-->
+    <article id="education" class="education">
+      <h1>Education</h1>
+        <div class="nackademin">
+            <a href="https://nackademin.se/utbildningar/frontend-utvecklare/">
+              <img src="images/nackademin.png" alt="">
+            </a>
+        </div>
+    </article>
+
+  </div> <!--end of the 'Contents' div -->
+
+
+<footer>
+  <article id="contact" class="contact">
+    <h1>Contact</h1>
+    <div class="contactImg">
+      <!--Mail-->
+      <a href="mailto:enkran@hotmail.com?" target="_top"><img src="images/close-envelope.svg" alt=""></a>
+      <!--LinkedIn-->
+      <a href="https://www.linkedin.com/in/ellinor-nilsson-kaufeldt-42b71757/"><img src="images/linkedin.svg" alt="Let's be friends on LinkedIn"></a>
+      <!--GitHub-->
+      <a href="https://github.com/ellinornk"><img src="images/github.svg" alt="Look at what I'm cooking up"></a>
+    </div>
+  </article>
+</footer>
+  </body>
+</html>

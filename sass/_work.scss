@@ -1,0 +1,58 @@
+.workSamples{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  h2{
+    margin-top: 2em;
+    font-size: 180%;
+  }
+  a{
+    color: white;
+  }
+}
+.workSample{
+  margin: 2em;
+}
+
+.arboreal{
+  background: url('../images/arborealSmall.png') no-repeat center;
+  opacity: 0.7;
+  transition-duration: 0.5s;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px gray;
+  height: 11em;
+  width: 25em;
+  margin-bottom: 1em;
+  h2,p{
+    visibility: hidden;
+  }
+}
+.arboreal:hover{
+    opacity: 1;
+    h2,p{
+      visibility: visible;
+      background: rgba(black, 0.7);
+    }
+  }
+
+.redesign{
+  background: url('../images/redesignSmall.png') no-repeat center;
+  opacity: 0.7;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px gray;
+  height: 11em;
+  width: 25em;
+  transition-duration: 0.5s;
+  h2,p{
+    visibility: hidden;
+  }
+}
+.redesign:hover{
+    opacity: 1;
+    h2,p{
+      visibility: visible;
+      background: rgba(black, 0.7);
+    }
+  }

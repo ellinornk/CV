@@ -1,0 +1,21 @@
+.returnToTop{
+  button{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    border-width: 2px;
+    border-color: black;
+    font-size: 1em;
+    padding: 0.5em;
+    transition-duration: 0.3s;
+    a{
+      color:black;
+    }
+  }
+  button:hover{
+    background-color:hotpink;
+    a{
+      color: white;
+    }
+  }
+}

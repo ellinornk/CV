@@ -1,0 +1,11 @@
+.introduction{
+  text-align: center;
+  margin: 5em 2em 5em 2em;
+  @media only screen and (min-width: 450px){
+    margin: 10em;
+  }
+  ul{
+    list-style: none;
+    padding: 2em;
+  }
+}
